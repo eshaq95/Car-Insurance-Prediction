@@ -55,16 +55,28 @@ Performance metrics for the best performing models:
 XGBoost demonstrated the best overall performance, followed by Random Forest. KNN showed the lowest performance among the three models.
 
 ## Repository Structure
-- `data/`: Contains the dataset
-- `notebooks/`: Jupyter notebooks for data analysis and model implementation
-- `src/`: Source code for data preprocessing and model implementation
-- `results/`: Output files and figures
-- `requirements.txt`: List of required Python packages
+
+- `data/`: Contains the dataset (`CW1_data_202223.csv`)
+- `code/`: Contains the code implementation (`C22086790_CW1_code.ipynb`)
+- `report/`: Contains the final project report (`C22086790_CW1_report.pdf`)
 
 ## Usage
-1. Clone the repository
-2. Install the required packages: `pip install -r requirements.txt`
-3. Run the Jupyter notebooks in the `notebooks/` directory for step-by-step analysis and model implementation
+
+1. Clone the repository:
+   ```
+   git clone [repository-url]
+   ```
+2. Ensure you have Jupyter Notebook installed and the necessary Python packages
+3. Navigate to the `code/` directory:
+   ```
+   cd code
+   ```
+4. Open and run the Jupyter notebook:
+   ```
+   jupyter notebook C22086790_CW1_code.ipynb
+   ```
+5. The notebook will use the dataset from the `data/` directory
+6. For a detailed explanation of the project and results, refer to the report in the `report/` directory
 
 ## Future Work
 - Exploration of more advanced feature engineering techniques
