@@ -64,7 +64,7 @@ XGBoost demonstrated the best overall performance, followed by Random Forest. KN
 
 1. Clone the repository:
    ```
-   git clone [repository-url]
+   git clone https://github.com/eshaq95/Car-Insurance-Prediction-ML
    ```
 2. Ensure you have Jupyter Notebook installed and the necessary Python packages
 3. Navigate to the `code/` directory:
